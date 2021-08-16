@@ -1,0 +1,12 @@
+
+.navbar-custom {
+  background-color: $eerie;
+  height: 80px;
+  width: 100%;
+  .navbar-brand {
+    padding-left: 15px;
+  }
+  .nav_links {
+    padding-right: 15px;
+  }
+}

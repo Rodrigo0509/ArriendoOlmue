@@ -1,0 +1,125 @@
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.banner_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.columnas {
+  font-family: "Montserrat", sans-serif;
+}
+.columnas .columnas_title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.columnas .columnas_price {
+  font-size: 40px;
+  font-weight: 700;
+  color: #E56353;
+}
+.columnas .columnas_subtitle {
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 400;
+}
+.columnas .columnas_text {
+  font-size: 18px;
+}
+
+.icons .icons_text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.banner {
+  background-image: url("../img/pexels-photo-627823.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #121619;
+}
+.banner .banner_title {
+  padding-left: 15px;
+  border-bottom: 6px solid #222323;
+}
+
+.carrusel {
+  padding-bottom: 20px;
+}
+
+.principal {
+  padding-top: 20px;
+  background-color: #E6E7E7;
+}
+.principal .columnas {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.principal .columnas img {
+  height: 300px;
+}
+.principal .columnas .columnas_title {
+  padding-bottom: 10px;
+}
+.principal .columnas .columnas_price {
+  padding-bottom: 10px;
+}
+.principal .columnas .columnas_subtitle {
+  padding-bottom: 15px;
+}
+.principal .columnas .columnas_text {
+  padding-bottom: 5px;
+}
+.principal .icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.principal .icons i {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.principal .icons .icons_ico {
+  display: flex;
+}
+.principal .icons .icons_ico .icons_text {
+  padding-left: 10px;
+}
+
+.navbar-custom {
+  background-color: #121619;
+  height: 80px;
+  width: 100%;
+}
+.navbar-custom .navbar-brand {
+  padding-left: 15px;
+}
+.navbar-custom .nav_links {
+  padding-right: 15px;
+}
+
+.index_main img {
+  height: auto;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

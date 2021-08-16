@@ -1,0 +1,44 @@
+// navbar
+.navbar-dark .navbar-nav .nav-link {
+  font-family: $montserrat;
+  font-weight: $regular;
+  color: $white;
+  opacity: 0.9;
+  font-size: $medium;
+}
+
+// banner
+.banner_title {
+  font-family: $montserrat;
+  font-size: $xx-large;
+  font-weight: $black;
+}
+
+// grid
+.columnas {
+  font-family: $montserrat;
+  .columnas_title {
+    font-size: $x-large;
+    font-weight: $bold;
+  }
+  .columnas_price {
+    font-size: $xx-large;
+    font-weight: $bold;
+    color: $fuzzy;
+  }
+  .columnas_subtitle {
+    text-decoration: underline;
+    font-size: $x-large;
+    font-weight: $regular;
+  }
+  .columnas_text {
+    font-size: $large;
+  }
+}
+.icons {
+  .icons_text {
+    font-family: $montserrat;
+    font-size: $large;
+    font-weight: $bold;
+  }
+}
