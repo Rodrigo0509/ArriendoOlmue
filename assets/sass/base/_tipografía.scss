@@ -18,6 +18,14 @@
 .casa_section {
   font-family: $montserrat;
   .casa_section__title {
+    text-decoration: underline;
+    font-size: $x-large;
+    font-weight: $regular;
+  }
+  .casa_section__text {
+    font-size: $large;
+  }
+  .casa_section__subtitle {
     font-size: $x-large;
     font-weight: $bold;
   }
@@ -26,13 +34,10 @@
     font-weight: $bold;
     color: $fuzzy;
   }
-  .casa_section__subtitle {
-    text-decoration: underline;
-    font-size: $x-large;
-    font-weight: $regular;
-  }
-  .casa_section__text {
-    font-size: $large;
+  .casa_section__conditions {
+    font-size: $small;
+    font-weight: $bold;
+    color: $ruddy;
   }
 }
 .icons {
