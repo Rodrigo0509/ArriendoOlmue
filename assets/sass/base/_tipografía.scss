@@ -14,24 +14,24 @@
   font-weight: $black;
 }
 
-// grid
-.columnas {
+// main-casa
+.casa_section {
   font-family: $montserrat;
-  .columnas_title {
+  .casa_section__title {
     font-size: $x-large;
     font-weight: $bold;
   }
-  .columnas_price {
+  .casa_section__price {
     font-size: $xx-large;
     font-weight: $bold;
     color: $fuzzy;
   }
-  .columnas_subtitle {
+  .casa_section__subtitle {
     text-decoration: underline;
     font-size: $x-large;
     font-weight: $regular;
   }
-  .columnas_text {
+  .casa_section__text {
     font-size: $large;
   }
 }

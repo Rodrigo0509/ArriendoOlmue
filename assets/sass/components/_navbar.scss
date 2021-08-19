@@ -1,8 +1,11 @@
 
 .navbar-custom {
   background-color: $eerie;
-  height: 80px;
+  height: 65px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
   .navbar-brand {
     padding-left: 15px;
   }
