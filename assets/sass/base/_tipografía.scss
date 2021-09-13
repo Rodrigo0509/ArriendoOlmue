@@ -47,3 +47,28 @@
     font-weight: $bold;
   }
 }
+
+// footer
+.footer {
+  font-family: $montserrat;
+  color: white;
+  .footer_logo {
+    .footer_logo_title{
+      font-size: $xx-large;
+      font-weight: $black;
+    }
+  }
+  .footer_reserva {
+    .footer_reservas_title {
+      font-size: $x-large;
+      font-weight: $regular;
+      font-style: italic;
+    }
+  }
+  .footer_datos {
+    .footer_datos__text{
+      font-size: $medium;
+      font-weight: $light;
+    }
+  }
+}

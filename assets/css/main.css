@@ -50,6 +50,24 @@ html * {
   font-weight: 700;
 }
 
+.footer {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.footer .footer_logo .footer_logo_title {
+  font-size: 40px;
+  font-weight: 900;
+}
+.footer .footer_reserva .footer_reservas_title {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+}
+.footer .footer_datos .footer_datos__text {
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .banner {
   background-image: url("../img/pexels-photo-627823.jpeg");
   background-size: cover;
@@ -94,6 +112,54 @@ html * {
 }
 .navbar-custom .nav_links {
   padding-right: 15px;
+}
+
+.footer {
+  height: 230px;
+  display: flex;
+  position: relative;
+  top: 60px;
+  background-color: #222323;
+}
+.footer .footer_logo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer_logo .footer_logo_title {
+  padding-top: 10px;
+  text-align: center;
+}
+.footer .footer_logo .footer_logo_rrss i {
+  padding: 10px;
+}
+.footer .footer_logo .footer_logo_rrss a {
+  color: white;
+}
+.footer .footer_reserva {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer .footer_reserva h4 {
+  text-decoration: underline;
+}
+.footer .footer_reserva i {
+  padding-left: 15px;
+}
+.footer .footer_datos {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer .footer_datos i {
+  padding: 6px;
 }
 
 .principal {
@@ -143,6 +209,22 @@ html * {
 }
 .principal .icons .icons_ico .icons_text {
   padding-left: 10px;
+}
+
+.contacto {
+  background-color: #e0ffff;
+  height: 600px;
+  display: flex;
+  position: relative;
+  top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .airbnb {
+  width: 50%;
+}
+.contacto .map {
+  width: 50%;
 }
 
 .landing {

@@ -1,0 +1,15 @@
+.contacto {
+  background-color: $lightcyan;
+  height: 600px;
+  display: flex;
+  position: relative;
+  top: 60px;
+  justify-content: center;
+  align-items: center;
+  .airbnb {
+    width: 50%;
+  }
+  .map {
+    width: 50%;
+  }
+}

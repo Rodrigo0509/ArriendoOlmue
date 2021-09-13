@@ -1,0 +1,49 @@
+.footer {
+height: 230px;
+display: flex;
+position: relative;
+top: 60px;
+background-color: $raisin;
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  .footer_logo_title {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .footer_logo_rrss {
+    i {
+      padding: 10px;
+    }
+    a {
+      color: white;
+    }
+  }
+}
+.footer_reserva {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+  h4 {
+    text-decoration: underline;
+  }
+  i {
+    padding-left: 15px;
+  }
+}
+.footer_datos {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  i {
+    padding: 6px;
+  }
+}
+}
